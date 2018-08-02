@@ -3,11 +3,9 @@
 *
 * @package phpBB Extension - tas2580 privacyprotection
 * @copyright (c) 2018 tas2580 (https://tas2580.net)
+* Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
-*/
-/**
-* DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
 {
@@ -33,8 +31,15 @@ if (empty($lang) || !is_array($lang))
 // ‚ ‘ ’ « » „ “ ” …
 //
 $lang = array_merge($lang, array(
-	'ACP_PRIVACYPROTECTION_TITLE'		=> 'Privacy Protection',
-	'ACP_PRIVACYPROTECTION_SETTINGS'	=> 'Einstellungen',
-	'ACP_PRIVACYPROTECTION_PRIVACY'		=> 'Datenschutzerklärung',
-	'ACP_PRIVACYPROTECTION_LIST'		=> 'Benutzerliste',
+	'DOWNLOAD_MY_DATA'				=> 'Download mijn persoonlijke gegevens',
+	'DOWNLOAD_MY_DATA_EXPLAIN'		=> 'Hier kunt u uw persoonlijke profiel gegevens downloaden als een CSV bestand.',
+	'DOWNLOAD_MY_POSTS_EXPLAIN'		=> 'Hier kun je de berichten die je hebt geschreven als een CSV bestand downloaden.',
+	'DOWNLOAD_BTN'					=> 'Download',
+	'NEED_ACCEPT_PRIVACY'			=> 'U moet eerst de privacy beleidsverklaring lezen en accepteren.',
+	'PRIVACY_ACCEPTED'				=> 'Privacybeleid gelezen en geaccepteerd',
+	'PRIVACY_ACCEPTED_EXPLAIN'		=> 'Door dit veld te markeren, bevestig ik dat ik de <a href="%s">Privacybeleid verklaring</a> heb gelezen en geaccepteerd.',
+	'PRIVACY_LAST_ACCEPTED'			=> 'Privacybeleid laatst geaccepteerd',
+	'REVOKE_PRIVACY'				=> 'Intrekken',
+	'REVOKE_PRIVACY_CONFIRM'		=> 'Weet u zeker dat u uw toestemming voor het privacybeleid wilt hernieuwen?',
+	'REVOKE_PRIVACY_SUCCESS'		=> 'U hebt met succes uw toestemming voor het privacybeleid ingetrokken.',
 ));

@@ -6,9 +6,6 @@
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
-/**
-* DO NOT CHANGE
-*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -33,8 +30,15 @@ if (empty($lang) || !is_array($lang))
 // ‚ ‘ ’ « » „ “ ” …
 //
 $lang = array_merge($lang, array(
-	'ACP_PRIVACYPROTECTION_TITLE'		=> 'Privacy Protection',
-	'ACP_PRIVACYPROTECTION_SETTINGS'	=> 'Einstellungen',
-	'ACP_PRIVACYPROTECTION_PRIVACY'		=> 'Datenschutzerklärung',
-	'ACP_PRIVACYPROTECTION_LIST'		=> 'Benutzerliste',
+	'DOWNLOAD_MY_DATA'				=> 'Meine Daten herunterladen',
+	'DOWNLOAD_MY_DATA_EXPLAIN'		=> 'Hier können Sie Ihre persönlichen Profildaten als CSV-Datei runterladen.',
+	'DOWNLOAD_MY_POSTS_EXPLAIN'		=> 'Hier können Sie die von Ihnen geschriebenen Beiträge als CSV-Datei runterladen.',
+	'DOWNLOAD_BTN'					=> 'Download',
+	'NEED_ACCEPT_PRIVACY'			=> 'Sie müssen die Datenschutzerklärung lesen und akzeptieren.',
+	'PRIVACY_ACCEPTED'				=> 'Datenschutzerklärung gelesen und akzeptiert',
+	'PRIVACY_ACCEPTED_EXPLAIN'		=> 'Ich bestätige mit dem Auswählen dieses Feldes, das ich die <a href="%s">Datenschutzerklärung</a> gelesen habe und akzeptiere diese.',
+	'PRIVACY_LAST_ACCEPTED'			=> 'Datenschutzerklärung zuletzt akzeptiert',
+	'REVOKE_PRIVACY'				=> 'Widerrufen',
+	'REVOKE_PRIVACY_CONFIRM'		=> 'Sind Sie sich sicher, dass Sie Ihre Zustimmung zur Datenschutzerklärung widerrufen möchten?',
+	'REVOKE_PRIVACY_SUCCESS'		=> 'Sie haben Ihre Zustimmung zur Datenschutzerklärung erfolgreich widerrufen.',
 ));

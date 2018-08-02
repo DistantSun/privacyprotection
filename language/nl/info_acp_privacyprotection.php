@@ -3,6 +3,7 @@
 *
 * @package phpBB Extension - tas2580 privacyprotection
 * @copyright (c) 2018 tas2580 (https://tas2580.net)
+* Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -33,8 +34,8 @@ if (empty($lang) || !is_array($lang))
 // ‚ ‘ ’ « » „ “ ” …
 //
 $lang = array_merge($lang, array(
-	'ACP_PRIVACYPROTECTION_TITLE'		=> 'Privacy Protection',
-	'ACP_PRIVACYPROTECTION_SETTINGS'	=> 'Einstellungen',
-	'ACP_PRIVACYPROTECTION_PRIVACY'		=> 'Datenschutzerklärung',
-	'ACP_PRIVACYPROTECTION_LIST'		=> 'Benutzerliste',
+	'ACP_PRIVACYPROTECTION_TITLE'		=> 'Privacy bescherming',
+	'ACP_PRIVACYPROTECTION_SETTINGS'	=> 'Instellingen',
+	'ACP_PRIVACYPROTECTION_PRIVACY'		=> 'Privacy beleid',
+	'ACP_PRIVACYPROTECTION_LIST'		=> 'Gebruikerslijst',
 ));
